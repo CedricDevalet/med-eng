@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medi-Engis</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-l4ZJLK+p/UaI/pRpzwhC9X/HMMbS5lVKY+YJzVBG/mIOtJ5QT5w5qhnDT5v5+eXtjlBMYtOOzGd8+1tR4+2D4w=="
+    crossorigin="anonymous" />
+  <!-- Liens vers les fichiers CSS et JS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#home">MédiEngis</a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nous-trouver">Où nous trouver ?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#notre-equipe">Notre équipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="homep">
+              <h1 style="font-size: 2.4rem;">Bienvenue sur Medi-Engis</h1>
+              <p>Nous sommes une maison médicale à Engis, spécialisée dans la prise en charge des patients. Notre équipe
+                est formée de professionnels compétents et dévoués qui sont là pour vous aider à maintenir votre santé.
+              </p>
+              <a href="#contact" class="btn btn-primary">Informations Pratique ...</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class=" homei d-flex justify-content-center">
+              <img src="img/LOGO_MEDIENGIS.png" alt="Logo de Medi-Engis">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nous-trouver">
+      <div class="container boxShad">
+        <h2 class="whereT text-center mb-4">Où nous trouver ?</h2>
+        <div class="row align-items-center">
+          <div class="col-md-8 mb-4 mb-md-0">
+            <div class="infoM">
+              <img src="img/locate.png" alt="image de l'emplacement" class="mapWhere img-fluid mx-auto d-block">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info border rounded p-3 shadow-sm">
+              <h2 class="text-center mb-3"><u>Infos</u></h2>
+              <br>
+              <h3>Adresse</h3>
+              <p>Rue Joseph Wauters 43</p>
+              <p>4480 Engis</p>
+
+              <h3>Horaires</h3>
+              <br>
+              <p>Lundi - Vendredi: 9h - 18h</p>
+              <br>
+              <p>Samedi - Dimanche: fermé</p>
+              <a href="#" class="btn btn-primary btn-block mt-3">Où vous garer ?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="notre-equipe">
+      <div class="container boxShad">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="teami" src="img/LOGO_MEDIENGIS.png" alt="Notre Équipe">
+          </div>
+          <div class="col-md-8">
+            <h2 class="text-center">Notre Équipe</h2>
+            <hr>
+            <h3>Les généralistes :</h3>
+            <ul>
+              <li>Docteur Bourguignon Annick : Lundi, Mardi, Mercredi, Vendredi à partir de 17h. Tout sur RDV.</li>
+              <li>Docteur Hendrikx Thierry : Mardi et Jeudi de 9h à 12h et de 18h à 21h30.</li>
+              <li>Docteur Laurent Francois : Tous les jours sur rendez-vous de 9h à 18h.</li>
+              <li>Docteur Poncin Marine : Tous les jours sur rendez-vous de 9h à 18h.</li>
+            </ul>
+            <h3>Le département de cardiologie :</h3>
+            <ul>
+              <li>Docteur Ancion Arnaud : Tous les lundis sur rendez-vous de 9h à 17h.</li>
+              <li>Docteur Tsetsila Nafsika : Horaires à définir.</li>
+            </ul>
+            <h3>Le département de gastro-entérologie :</h3>
+            <ul>
+              <li>Docteur Sacré Françoise : Sur rendez-vous. Téléphone général 042208200 (Accueil de 8h à 18h).</li>
+            </ul>
+            <h3>Le département de kinésithérapie :</h3>
+            <ul>
+              <li>Monsieur Darte Denis : Sur rendez-vous. Téléphone général 042208200 (Accueil de 8h à 18h).</li>
+              <li>Monsieur Masset Joffrey : Jeudi de 13h à 17h.</li>
+            </ul>
+            <h3>Pédicure médicale :</h3>
+            <ul>
+              <li>Madame Mardaga Nathalie : Mardi de 11h à 17h.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container boxShad">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12 mb-4">
+                <img src="img/LOGO_MEDIENGIS.png" alt="Logo" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <ul>
+                <li>Les médecins généraliste gardent leurs numéros actuels</li>
+                <li>-Docteur Bourguignon annick 042755945</li>
+                <li>-Docteur Hendrikx Thierry 042757125</li>
+                <li>-Docteur Laurent Francois 042730670</li>
+                <li>-Docteur Poncin Marine 0477436667</li>
+                <li>Pour les spécialistes et la pédicure sonnez sur le téléphone géneral pour joindre l'accueil entre 8H
+                  et 18H au 042208200.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-md-12 mb-4 border-right">
+                <h4>Où nous trouver ?</h4>
+                <p>Rue Joseph Wauters 43, 4480 Engis</p>
+              </div>
+              <div class="col-md-12 border-right">
+                <h4>Nous sommes ouverts de :</h4>
+                <p> Lundi - Vendredi: 9h - 18h </p>
+                <p> Samedi - Dimanche: Fermé </p>
+              </div>
+              <div class="col-md-12 mt-4">
+                <a href="#nous-trouver" class="btn btn-primary btn-block">Où nous trouver ?</a>
+                <a href="#notre-equipe" class="btn btn-primary btn-block">Notre Équipe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+          <p class="footp">© 2023 Medi-Engis. Tous droits réservés.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

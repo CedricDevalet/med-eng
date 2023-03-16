@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour les sections */
+section {
+  height: 100vh; /* Définit la hauteur de chaque section à 100% de la hauteur de la fenêtre */
+  scroll-snap-align: start; /* Permet d'activer le scroll snap sur chaque section */
+}
+
+.boxShad {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff; /* Couleur de fond pour la section home */
+}
+
+#nous-trouver {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6e6; /* Couleur de fond pour la section où nous trouver */
+}
+
+#notre-equipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9; /* Couleur de fond pour la section notre équipe */
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cccccc; /* Couleur de fond pour la section contact */
+  height: 70vh !important; /* Définit la hauteur de chaque section à 100% de la hauteur de la fenêtre */
+}
+
+/* HEADER ET NAV. BAR */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    z-index: 1; /* Ajout de la propriété z-index */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link.active {
+    color: #007bff;
+  }
+
+  /* SECTION HOME */
+  #home {
+    background-color: #F5F5F5;
+    padding: 80px 0;
+  }
+  
+  #home h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  #home p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  #home img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .homep {
+    margin-right: 100px;
+  }
+
+  .homei {
+    margin-left: 100px;
+  }
+
+  /* FIND US */
+
+  .whereT {
+    margin-bottom: 50px !important;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+  }
+
+  .info {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+  .info h3 {
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  .mapWhere {
+    margin-right: 100px;
+  }
+
+  .infoM {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+  /* OUR TEAM */
+
+  #notre-equipe {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #notre-equipe ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #notre-equipe ul li {
+    margin-bottom: 10px;
+  }
+
+  .teami {
+    width: 380px;
+    margin-top: 235px;
+  }
+
+  /* CONTACT */
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+  }
+  
+  .border-right {
+    border-right: 1px solid black;
+  }
+  
+
+  /* FOOTER */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .footp {
+    margin: 0 0 10px;
+  }
+  
